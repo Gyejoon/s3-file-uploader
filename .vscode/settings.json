@@ -1,0 +1,44 @@
+{
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+          "source.organizeImports": false
+      },
+      "editor.formatOnSave": true,
+  },
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+          "source.organizeImports": false
+      },
+      "editor.formatOnSave": true,
+  },
+  "window.zoomLevel": 1,
+  "eslint.options": {
+      "extensions": [
+          ".js",
+          ".jsx",
+          ".md",
+          ".mdx",
+          ".ts",
+          ".tsx"
+      ]
+  },
+  "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
